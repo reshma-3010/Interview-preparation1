@@ -1,0 +1,93 @@
+
+body{
+    background-color:whitesmoke;
+}
+.a{
+    font-size:27px;
+    color:red;
+}
+button{
+    background-color: blue;
+    color:white;
+    font-size: 30px;
+    border-radius: 30px;
+
+}
+button:hover{
+    background-color: aquamarine;
+}
+.c{
+    font-family: 'quicksand',sans-serif;
+    font-size: 50px;
+    color: darkgreen;
+    font-weight: bold;
+    font-style: italic;
+}
+.d{
+    height:150px;
+    width:150px;
+    background-color:chartreuse;
+    transition:width 4s;
+
+}
+.d:hover{
+    width:250px;
+}
+.e
+{
+    height:100px;
+    width:100px;
+    background-color: khaki;
+    color:white;
+    font-style: italic;
+    border-radius: 50%;
+    border:2px solid rebeccapurple;
+}
+.f{
+    height:10vw;
+    width:50vw;
+    background-color: black;
+    color:rgb(244, 236, 236);
+    border:5px solid red;
+    border-radius: 30px;
+    font-size: 2vw;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 30px;
+    font-style: italic;
+    box-shadow: 8px 8px 8px #dddddd;
+}
+@media only screen and (max-width:900px)
+{
+    .f{
+    height:10vw;
+    width:50vw;
+    background-color:white;
+    color:blue;
+    border:5px solid lime;
+    border-radius: 30px;
+    font-size: 2vw;
+    text-align: center;
+    box-sizing: border-box;
+    font-style: italic;
+    box-shadow: 8px 8px 8px #dddddd;
+}
+
+}
+.g{
+    height:100px;
+    width:100px;
+    position:relative;
+    background-color: deepskyblue;
+    animation-name:s1;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+}
+@keyframes s1
+{
+    0% {background-color:deepskyblue;}
+    25% {background-color:blueviolet;}
+    50% {background-color:red;}
+    75% {background-color:green;}
+    100% {background-color:hotpink;}
+}
